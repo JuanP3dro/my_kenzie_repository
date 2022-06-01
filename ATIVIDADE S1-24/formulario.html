@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome" value="Nome" placeholder="Digite seu nome aqui..." required="true">
+        <label for="e-mail">E-mail</label>
+        <input type="text" id="e-mail" name="e-mail" value="e-mail" placeholder="Digite seu email aqui..." required="true">
+        <label for="descrição">Descrição</label>
+        <textarea name="descrição" id="descrição" cols="10" rows="10" placeholder="Fale mais sobre você aqui..."></textarea>
+        <label for="módulo">Módulo</label>
+        <select name="módulo" id="módulo" required>
+            <option value="módulo1">Módulo 1</option>
+            <option value="módulo2">Módulo 2</option>
+            <option value="módulo3">Módulo 3</option>
+            <option value="módulo4">Módulo 4</option>
+            <option value="módulo5">Módulo 5</option>
+            <option value="módulo6">Módulo 6</option>
+        </select>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" value="senha" required="true" placeholder="Digite sua senha aqui...">
+        <label for="ConfirmarSenha">Senha</label>
+        <input type="password" id="ConfirmarSenha" name="ConfirmarSenha" value="ConfirmarSenha" required="true" placeholder="Digite sua senha novamente aqui...">
+        <p>Deseja receber novidades em seu e-mail?</p>
+        <label for="sim">Sim</label>
+        <input type="radio" id="sim" name="newsletter" value="sim">
+        <label for="não">Não</label>
+        <input type="radio" id="não" name="newsletter" value="não">
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
